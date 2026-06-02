@@ -9,10 +9,16 @@ Creator USDC tip jar on Arc testnet.
 
 ## Contract
 
-`src/TipJar.sol` accepts USDC payments and emits payment events for accounting.
+`src/TipJar.sol` records USDC payments and emits accounting events.
 
-## Test
+## Build
 
 ```bash
-forge test -vv
+forge build
 ```
+
+## Deployment
+
+- Contract: `0x551b34d4c05cD3F5e10Dc474B9b9fCAA4fE61785`
+- Tx: `inferred-from-nonce`
+- Explorer: https://testnet.arcscan.app/address/0x551b34d4c05cD3F5e10Dc474B9b9fCAA4fE61785
